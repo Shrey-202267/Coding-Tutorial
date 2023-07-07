@@ -1,0 +1,60 @@
+.sidebar{
+    flex: 0.1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 95%;
+    border-right: 1px solid #004C99;
+}
+
+.sidebar::-webkit-scrollbar{
+    display: none; /*we dont want to show thw scroll bar*/
+}
+
+.category-btn{
+    font-weight: bold !important;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 12px 15px;
+    margin: 9px 8px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  .category-btn:hover{
+    background: #5468ff;
+
+  }
+
+  /* --------------media query(medium devices)--------------- */
+
+
+@media screen and (max-width:1024px) {
+
+   .sidebar{
+    flex-direction: row;
+    overflow-x: auto;
+   }
+
+   .category-btn{
+    padding: 12px 20px;
+    margin: 9px 10px;
+   }
+
+
+}
+
+
+/* --------------media query(small devices)--------------- */
+
+
+@media screen and (max-width:600px) {
+
+
+}

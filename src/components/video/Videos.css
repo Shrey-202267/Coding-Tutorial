@@ -1,0 +1,11 @@
+.videos{
+    flex: 0.9;
+    padding: 10px 20px;
+    height: 92vh;
+    overflow: auto;
+}
+
+.videos::-webkit-scrollbar{
+    display: none;
+}
+

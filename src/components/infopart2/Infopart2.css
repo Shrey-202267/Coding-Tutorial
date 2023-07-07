@@ -1,0 +1,31 @@
+.part1__container{
+    width: 75%;
+    color: #fff;
+    background-color: #132f4c;
+    border: 1px solid #1b426b;
+    border-radius: 20px;
+}
+
+
+section{
+    text-align: center;
+    color: #fff;
+}
+
+section > h2{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+
+.points{
+    padding: 6rem;
+    color: #a9b2bb;
+}
+
+
+.slide__image{
+    height: 130px;
+    object-fit: contain;
+    margin-bottom: 3rem;
+}

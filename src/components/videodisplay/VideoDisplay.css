@@ -1,0 +1,14 @@
+.videoDisplay__Container{
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div__player{
+    width: 900px;
+}
+.video__player{
+    height: 55vh !important;
+    width: 100% !important;
+}

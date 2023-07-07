@@ -1,0 +1,16 @@
+export const categories = [
+  { name: "Coding" },
+  { name: "C" },
+  { name: "C plus plus" },
+  { name: "Python" },
+  { name: "Java" },
+  { name: "Html" },
+  { name: "CSS" },
+  { name: "Javascript" },
+  { name: "ReactJS" },
+  { name: "Database" },
+  { name: "Django" },
+  { name: "Flask" },
+  { name: "Flutter" },
+  { name: "Kotlin" },
+];

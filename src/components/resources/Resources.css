@@ -1,0 +1,26 @@
+.resources{
+    display: flex;
+    height: 92vh;
+}
+
+
+/* --------------media query(medium devices)--------------- */
+
+
+@media screen and (max-width:1024px) {
+
+    .resources{
+        flex-direction: column;
+    }
+
+
+}
+
+
+/* --------------media query(small devices)--------------- */
+
+
+@media screen and (max-width:600px) {
+
+
+}
